@@ -194,7 +194,9 @@ height: 100px;
 .button3:hover {    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-
+div.one{
+    float: left;
+}
 
 .field{
 
@@ -248,18 +250,26 @@ border-bottom: 1px solid lightgrey;
         <img src="resume3.png" width="300" height="500"  border=2  style="margin-left : 180px; margin-top:25px;">
 
         <br><br>
+
+        <div class="one">
         <form action="/view1" method="POST">
             <input type="text" id="email1" name="email1" value="" style="display: none">
             <button type="submit" class="button3" onclick="check()" style="margin-left: 115px;">Template 1</button>
         </form>
+        </div>
+
+        <div class="one">
         <form action="/view2" method="POST">
             <input type="text" id="email2" name="email2" value="" style="display: none">
             <button type="submit" class="button3" onclick="check()" style="margin-left: 400px;" >Template 2</button>
         </form>
+        </div>
+        <div class="one">
         <form action="/view3" method="POST">
             <input type="text" id="email3" name="email3" value="" style="display: none">
             <button type="submit" class="button3" onclick="check()" style="margin-left: 400px;" >Template 3</button>
         </form>
+        </div>
         <br><br>
         <br><br>
         <script>
